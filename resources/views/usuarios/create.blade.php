@@ -48,8 +48,8 @@ CRUD USUARIO CREAR
     <label for="Correo">{{'Correo'}}</label>
     <input type="email" name="Correo" id="Correo" value="" class="form-control">
     <br>
-    <label for="password">{​​{​​'Password'}​​}​​</label>
-    <input type="text" name="password" id="password" value="" class="form-control"> 
+    <label for="Password">{​​{​​'Password'}​​}​​</label>
+    <input type="text" name="Password" id="Password" value="" class="form-control"> 
     <br>
     <label for="Foto">{{'Foto'}}</label>
     <br>

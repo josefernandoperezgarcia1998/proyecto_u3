@@ -1,9 +1,7 @@
 @extends('layout.layout')
-
 @section('titulo')
 CRUD CATEGORIA CREAR
 @endsection
-
 @section('menu')
 <li class="nav-item">
             <a class="nav-link active" href="categorias">
@@ -30,9 +28,6 @@ CRUD CATEGORIA CREAR
             </a>
           </li>
 @endsection
-
-
-
 @section('contenido')
 <form action="{{ url('/categorias') }}" method="post" enctype="multipart/form-data">
 @csrf

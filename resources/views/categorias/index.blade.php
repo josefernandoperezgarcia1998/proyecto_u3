@@ -1,9 +1,7 @@
 @extends('layout.layout')
-
 @section('titulo')
 CRUD CATEGORIA INICIO
 @endsection
-
 @section('menu')
           <li class="nav-item">
             <a class="nav-link active" href="categorias">
@@ -30,9 +28,6 @@ CRUD CATEGORIA INICIO
             </a>
           </li>
 @endsection
-
-
-
 @section('contenido')
 @if(Session::has('Mensaje')){{
     Session::get('Mensaje')
@@ -44,7 +39,6 @@ CRUD CATEGORIA INICIO
 <table class="table table-striped table-dark">
     <thead class="">
         <tr>
-
             <th>#</th>
             <th>Imagen</th>
             <th>Nombre de la categoría</th>
