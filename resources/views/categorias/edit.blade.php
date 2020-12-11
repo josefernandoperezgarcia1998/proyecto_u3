@@ -1,9 +1,7 @@
 @extends('layout.layout')
-
 @section('titulo')
 CRUD CATEGORIA EDITAR
 @endsection
-
 @section('menu') 
 <li class="nav-item">
             <a class="nav-link active" href="categorias">
@@ -30,14 +28,10 @@ CRUD CATEGORIA EDITAR
             </a>
           </li>
 @endsection
-
-
-
 @section('contenido')
 <form action="{{ url('/categorias/'.$categoria->id) }}" method="post" enctype="multipart/form-data">  
     @csrf
     @method('PATCH')
-    
     <label for="Nombre">{{'Nombre'}}</label>
     <input type="text" name="Nombre" id="Nombre" value="{{ $categoria->Nombre }}" class="form-control">
     <br>

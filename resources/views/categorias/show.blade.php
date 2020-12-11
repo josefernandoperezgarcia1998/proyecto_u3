@@ -1,9 +1,7 @@
 @extends('layout.layout')
-
 @section('titulo')
 CRUD CATEGORIA MOSTRAR
 @endsection
-
 @section('menu')
 <li class="nav-item">
             <a class="nav-link active" href="categorias">
@@ -30,9 +28,6 @@ CRUD CATEGORIA MOSTRAR
             </a>
           </li>
 @endsection
-
-
-
 @section('contenido')
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 <table class="table">

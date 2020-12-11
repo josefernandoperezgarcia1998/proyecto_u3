@@ -15,7 +15,7 @@ Tablero del Supervisor
           <li class="nav-item">
             <a class="nav-link active" href="categorias">
               <span data-feather="home"></span>
-              Categoria <span class="sr-only">(current)</span>
+              Categoria <span class="sr-only"></span>
             </a>
           </li>
           <li class="nav-item">

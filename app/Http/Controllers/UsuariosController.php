@@ -47,6 +47,8 @@ class UsuariosController extends Controller
 
             $datosUsuario['Foto']=$request->file('Foto')->store('uploads/usuarios','public');
         }
+        $datosUsuario['Password']=bcrypt($request->input('Password'));
+
 
         User::insert($datosUsuario);
         return redirect('usuarios')->with('Mensaje','Usuario agregado con éxito');
